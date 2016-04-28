@@ -52,7 +52,7 @@ table {
     border-color: #cacaca;
 	padding: 45px;
     word-wrap: break-word;
-    background-color: #fff;
+    background-color: #aaa;
     border: 1px solid #ddd;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -60,6 +60,21 @@ table {
     border-collapse: collapse;
     margin-top: 0;
     margin-bottom: 16px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f8f8f8;
+}
+
+table th, .markdown-body table td {
+    padding: 6px 13px;
+    border: 1px solid #ddd;
 }
 
 a {
