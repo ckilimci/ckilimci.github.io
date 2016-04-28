@@ -68,13 +68,18 @@ tr {
     border-color: inherit;
 }
 
+table tr {
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
 table tr:nth-child(2n) {
     background-color: #f8f8f8;
 }
 
 table th, .markdown-body table td {
     padding: 6px 13px;
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
 }
 
 a {
