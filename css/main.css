@@ -47,7 +47,7 @@ pre code {
 }
 
 table {
-    color: #cacaca;
+    color: #444;
     line-height: 1.6;
     border-color: #cacaca;
 	padding: 45px;
@@ -74,10 +74,10 @@ table tr {
 }
 
 table tr:nth-child(2n) {
-    background-color: #f8f8f8;
+    background-color: #dadada;
 }
 
-table th, .markdown-body table td {
+table th, table td {
     padding: 6px 13px;
     border: 2px solid #ddd;
 }
