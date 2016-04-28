@@ -9,3 +9,6 @@ disqus_shortname: "blog"
 copyright_year: "2016"
 google_analytics_code: "UA-6120982-3"
 aboutme: "I like to move it, move it."
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "strikethrough", "superscript", "with_toc_data"]
